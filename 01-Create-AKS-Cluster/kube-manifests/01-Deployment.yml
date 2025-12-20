@@ -15,8 +15,9 @@ spec:
     spec:
       containers: # List
         - name: myapp1-container
-          image: stacksimplify/kubenginx:1.0.0 
-          #image: ghcr.io/stacksimplify/kubenginx:1.0.0 
+          # image: stacksimplify/kubenginx:1.0.0 
+          # image: ghcr.io/stacksimplify/kubenginx:1.0.0 
+          image: nginx:latest
           ports:
             - containerPort: 80
 
